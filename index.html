@@ -1,0 +1,74 @@
+<<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="Weather-app">
+        <form id="search-city-form">
+          <div class="row">
+            <div class="col-8">
+              <input
+                type="text"
+                id="new-city-input"
+                class="form-control"
+                placeholder="Search a city"
+                autofocus="on"
+                autocomplete="off"
+              />
+              <button id="current-location">
+                Current Location
+              </button>
+</div>
+            <div class="col-4">
+              <input type="submit" class="btn btn-success" value="Search" />
+            </div>
+          </div>
+        </form>
+        <div class="current-city">
+          <div class="row">
+            <div class="col-5">
+              <h1 id="result-city">Yaounde,Cameroon</h1>
+              <ul class="temp-description">
+                <li id="weatherCurrentDate">Monday June 27, 2023</li>
+
+                <li><em> Completely sunny</em></li>
+              </ul>
+            </div>
+<div class="col-5">
+              <div class="current-temp">
+                <span class="temperature" id="currentTemp"> ☀️ 29 </span>
+                <span class="units">
+                  <a href="#" class="celsius-link" id="c-unit"> °C </a> 
+                  <a href="#" class="fahrenheit-link" id="f-unit"> /°F </a>
+                </span>
+                <div class="col-7" id="variable"> 
+                   <ul>
+                     <li>
+                    precipitation:0%
+                    </li>
+                    <li>
+                      HUmidity:80%
+                    </li>
+                    <li>
+                    </li>       
+                  </ul>
+
+                </div>
+              </div>
+
+    </div>
+    <script src="src/index.js";></script>
+  </body>
+</html>

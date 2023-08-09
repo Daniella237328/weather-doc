@@ -1,0 +1,83 @@
+body {
+  border: 3px;
+  margin: 10%;
+  width: 700px;
+  background: linear-gradient(106.8deg, rgb(117, 255, 220) 6%);
+}
+h1 {
+  color: #1f6f78;
+  margin-bottom: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  border: 2px solid #1f6f78;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: #e4f1fe;
+}
+.Weather-app {
+  width: 650px;
+  padding: 0;
+  margin-left: 5px;
+}
+
+.temp-hour {
+  width: 650px;
+  height: 75px;
+  border: 1px solid #3baea0;
+  border-radius: 25px;
+}
+.forecast {
+  border: 1px solid #3baea0;
+  border-radius: 25px;
+  line-height: 45px;
+  margin-top: 20px;
+}
+.tempWeek {
+  border: 1px solid #3baea0;
+}
+.temperature {
+  font-size: 50px;
+  position: relative;
+  bottom: -10px;
+}
+.units {
+  position: relative;
+  top: -10px;
+  left: -10px;
+  font-weight: bold;
+}
+.celsius,
+.fahrenheit {
+  text-decoration: none;
+}
+
+.temp-description {
+  padding-left: 0;
+}
+.hour {
+  text-align: center;
+}
+.forecast-heading {
+  position: relative;
+  left: 30px;
+}
+form {
+  position: relative;
+  left: 60px;
+}
+.current-city {
+  position: relative;
+  left: 80px;
+  margin-top: 10px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: aquamarine;
+  padding: 10px;
+}
